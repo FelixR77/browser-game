@@ -35,40 +35,43 @@ const expo23 = document.querySelector('[data-expo="23"]')
 
 
 /*----------------------------- Event Listeners -----------------------------*/
+alert(`Welcome to the easiest game ever. To win press the game: press the up arrow key, then the right, then up, and the right again. Dont over think it.`)
+
+
 document.addEventListener('keydown', (event) => {
     if (expo26.innerHTML === '😎') {
         if (event.key === "ArrowUp") {
             expo21.innerHTML = '😎'
-            expo26.innerHTML = ''
+            expo26.innerHTML = '🛣️'
         }
     }
 
     if (expo21.innerHTML === '😎') {
         if (event.key === "ArrowRight") {
             expo22.innerHTML = '😎'
-            expo21.innerHTML = ''
+            expo21.innerHTML = '🛣️'
         }
     }
     if (expo22.innerHTML === '😎') {
         if (event.key === "ArrowRight") {
             expo23.innerHTML = '😎'
-            expo22.innerHTML = ''
+            expo22.innerHTML = '🛣️'
         }
     }
     if (expo23.innerHTML === '😎') {
         if (event.key === "ArrowUp") {
             expo3.innerHTML = '😎'
-            expo18.innerHTML = ''
-            expo13.innerHTML = ''
-            expo8.innerHTML = ''
-            expo23.innerHTML = ''
+            expo18.innerHTML = '🛣️'
+            expo13.innerHTML = '🛣️'
+            expo8.innerHTML = '🛣️'
+            expo23.innerHTML = '🛣️'
         }
     }
     if (expo3.innerHTML === '😎') {
         if (event.key === "ArrowRight") {
             expo5.innerHTML = '😎'
-            expo3.innerHTML = ''
-            expo4.innerHTML = ''
+            expo3.innerHTML = '🛣️'
+            expo4.innerHTML = '🛣️'
         }
     }
 })

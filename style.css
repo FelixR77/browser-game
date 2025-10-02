@@ -3,8 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .game-board {
@@ -27,9 +25,9 @@
     grid-column: 1fr;
     border: 1px solid black;
     height: 100px;
-    
-
-
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
 }
 
 h1 {
