@@ -1,0 +1,13 @@
+.grid-sections {
+    border: 4px solid black;
+    height: 40rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 0 auto;
+
+}
+
