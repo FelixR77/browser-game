@@ -35,7 +35,7 @@ const expo23 = document.querySelector('[data-expo="23"]')
 
 
 /*----------------------------- Event Listeners -----------------------------*/
-alert(`Welcome to the easiest game ever. To win press the game: press the up arrow key, then the right, then up, and the right again. Dont over think it.`)
+alert(`Welcome to the easiest game ever. To win the game: press the up arrow key, then the right, then up, and the right again. Dont over think it.`)
 
 
 document.addEventListener('keydown', (event) => {
